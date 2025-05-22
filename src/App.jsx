@@ -1,8 +1,10 @@
+import Slider from "./slider/Slider"
+
 function App() {
 
   return (
     <>
-      <h1>Lorem</h1>
+      <Slider />
     </>
   )
 }
