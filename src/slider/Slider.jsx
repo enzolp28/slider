@@ -1,7 +1,7 @@
 import { useState } from "react"
 import leftChevron from "../assets/left-arrow.svg"
 import rightChevron from "../assets/right-arrow.svg"
-
+import "./Slider.css"
 
 export default function Slider() {
     const [photo, setPhoto] = useState([
@@ -24,7 +24,7 @@ export default function Slider() {
                 <button className="nav-button prev-button" onClick={handleClick}>
                     <img src={leftChevron} alt="previous image" />
                 </button>
-                <button className="nav-button prev-button" onClick={handleClick}>
+                <button className="nav-button next-button" onClick={handleClick}>
                     <img src={rightChevron} alt="next image" />
                 </button>
             </div>
